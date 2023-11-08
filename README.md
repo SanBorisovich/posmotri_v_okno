@@ -1,1 +1,1 @@
-ссылка на репозиторий (https://github.com/SanBorisovich/posmotri_v_okno)
+ссылка на репозиторий (https://github.com/SanBorisovich/posmotri_v_okno.git)
