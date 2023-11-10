@@ -37,13 +37,13 @@ ol {
 }
 
 .content {
-  inline-size: 1140px;
-  block-size: 534px;
+  inline-size: 1200px;
+  block-size: 800px;
   display: flex;
   justify-content: center;
   align-items: end;
   gap: 30px;
-  margin: 133px 30px;
+  padding: 133px 30px;
 }
 
 .result {
@@ -60,6 +60,9 @@ ol {
 
 .result__video {
   inline-size: 711px;
+  block-size: 386px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .search-form {
@@ -126,8 +129,8 @@ ol {
 .content__video-card {
   display: flex;
   justify-content: space-between;
-  padding: 2px;
-  block-size: 103px;
+  padding: 0 2px;
+  block-size: 107px;
 }
 
 .content__card-link {
@@ -140,7 +143,6 @@ ol {
 .content__video-card-title {
   margin-bottom: 6px;
   color: #fff;
-  font-family: "Oswald", sans-serif;;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -155,10 +157,13 @@ ol {
   font-style: normal;
   font-weight: 400;
   line-height: 16.2px; /* 90% */
-  inline-size: 200px;
+  inline-size: 196px;
 }
 
 .content__video-card-thumbnail {
+  margin: auto;
+  inline-size: 194px;
+  block-size: 103px;
   object-fit: cover;
   object-position: center;
 }
